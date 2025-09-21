@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="500.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.project.Controller0">
+   <children>
+      <VBox prefHeight="200.0" prefWidth="262.0" style="-fx-background-color: green;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="166.0" prefWidth="650.0">
+               <children>
+                  <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="FORMULARI" underline="true" wrappingWidth="246.13000106811523">
+                     <font>
+                        <Font size="35.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="20.0" top="10.0" />
+                     </HBox.margin>
+                  </Text>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="228.0" prefWidth="650.0">
+   <children>
+      <VBox alignment="CENTER_LEFT" prefHeight="228.0" prefWidth="198.0" spacing="5.0">
+         <children>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Introdueix el teu nom:" wrappingWidth="173.13000106811523" />
+            <TextField fx:id="nomField" prefHeight="26.0" prefWidth="169.0" />
+         </children>
+                     <HBox.margin>
+                        <Insets right="100.0" />
+                     </HBox.margin>
+      </VBox>
+      <VBox alignment="CENTER_LEFT" prefHeight="228.0" prefWidth="195.0" spacing="5.0">
+         <children>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Introdueix la teva edat:" wrappingWidth="161.13000106811523" />
+            <TextField fx:id="edatField" prefHeight="26.0" prefWidth="158.0" />
+         </children>
+      </VBox>
+   </children>
+</HBox>
+            <HBox alignment="BOTTOM_RIGHT" prefHeight="79.0" prefWidth="650.0">
+               <children>
+                  <Button fx:id="buttonNext" contentDisplay="CENTER" disable="true" mnemonicParsing="false" onAction="#goNext" prefHeight="40.0" prefWidth="94.0" text="NEXT">
+                     <HBox.margin>
+                        <Insets right="20.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
